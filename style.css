@@ -1,0 +1,187 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-bar img{
+    height: 60px;
+    background-image: url(img/logo_bg.png.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+.nav-bar a{
+    color: #fff;
+}
+.main-part img{
+    width: 100vw;
+}
+.main-part h2{
+    color: #222;
+    font-size: 50px;
+    font-weight: 600;
+}
+.main-part p{
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+.course-part h2{
+    font-size: 40px;
+    line-height: 40px;
+     color: #222;
+     font-weight: 700;
+}
+.course-part h3{
+    font-size: 25px;
+    line-height: 40px;
+     color: #222;
+     font-weight: 700;
+}
+.course-part p{
+    color: #777777;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+.course-part span{
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 18px;
+}
+.course-part h2:hover{
+    color: #ff0000;
+}
+.course-part h3:hover{
+    color: #ff0000;
+}
+.schedule-part h2{
+    font-size: 40px;
+    line-height: 40px;
+     color: #222;
+     font-weight: 700;
+}
+.schedule-part p{
+    color: #777777;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 15px;
+}
+.schedule-part h2:hover{
+    color: #ff0000;
+}
+.choose-us h2{
+    font-size: 40px;
+    line-height: 40px;
+     color: #222;
+     font-weight: 700;
+}
+.choose-us p{
+    color: #777777;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.choose-us h4{
+    font-size: 22px;
+    color: #222;
+    font-weight: 700;
+}
+.choose-us h2:hover{
+    color: #ff0000;
+}
+.choose-us h4:hover{
+    color: #ff0000;
+}
+.history-part h2{
+    font-size: 40px;
+    line-height: 40px;
+     color: #222;
+     font-weight: 700;
+}
+.history-part p{
+    color: #777777;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 16px;
+}
+.history-part h2:hover{
+    color: #ff0000;
+}
+.about-part h2{
+    font-size: 40px;
+    line-height: 40px;
+     color: #222;
+     font-weight: 700;
+}
+.about-part p{
+    color: #777777;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 16px;
+}
+.about-part span{
+    color: #ff0000;
+    font-weight: 400;
+}
+.about-part h2:hover{
+    color: #ff0000;
+}
+.about-part h4:hover{
+    color: #ff0000;
+}
+.banner-part{
+    background-image: url(img/become_member_bg.png.webp)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-part h2{
+    font-size: 40px;
+    line-height: 40px;
+     color: #222;
+     font-weight: 700;
+}
+.banner-part p{
+    color: #777777;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 16px;
+}
+.banner-part h2:hover{
+    color: #ff0000;
+}
+.footer-part h4{
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+}
+.footer-part p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+.footer-part h5{
+    color: #fff;
+}
+.footer-part{
+    background-color: #ff0000;
+}
+.last-line  p{
+    color: #fff;
+    font-size: 17px;
+}
+.last-line{
+    background-color: #ff0000;
+}
+.footer-part i{
+    font-size: 1.5rem;
+}
