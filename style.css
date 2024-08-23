@@ -2,6 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
+.nav-bar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
 
 .nav-bar img{
     height: 60px;
@@ -15,7 +20,7 @@
     color: #fff;
 }
 .main-part img{
-    width: 100vw;
+    height: 90vh;
 }
 .main-part h2{
     color: #222;
@@ -139,19 +144,21 @@
     color: #ff0000;
 }
 .banner-part{
-    background-image: url(img/become_member_bg.png.webp)no-repeat;
+    background-image: url(img/become_member_bg.png.webp);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 60vh;
 }
 .banner-part h2{
     font-size: 40px;
     line-height: 40px;
-     color: #222;
+     color: #fff;
      font-weight: 700;
 }
 .banner-part p{
     color: #777777;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: capitalize;
     line-height: 30px;
     font-size: 16px;
@@ -185,3 +192,37 @@
 .footer-part i{
     font-size: 1.5rem;
 }
+
+@media (max-width: 600px) {
+    .main-part img{
+        height: 50vh;
+    }
+    .course-part p{
+        font-size: 12px;
+    }
+    .schedule-part p{
+        font-size: 10px;
+    }
+    .choose-us{
+        text-align: center;
+    }
+    .banner-part p{
+        font-size: 15px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .main-part img{
+        height: 50vh;
+    }
+    .course-part img{
+        width: 100%;
+    }
+    .choose-us{
+        text-align: center;
+    }
+    .banner-part {
+        height: 40vh;
+    }
+  }
+  

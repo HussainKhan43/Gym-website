@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.contact-part h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact-part h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+.contact-part p{
+    color:gray;
+
+}
+.contact-part h4:hover{
+    color: #ff0000;
+}
+.contact-part h2:hover{
+    color: #ff0000;
+}
+.footer-part h4{
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+}
+.footer-part p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+.footer-part h5{
+    color: #fff;
+}
+.footer-part{
+    background-color: #ff0000;
+}
+.last-line  p{
+    color: #fff;
+    font-size: 17px;
+}
+.last-line{
+    background-color: #ff0000;
+}
+.footer-part i{
+    font-size: 1.5rem;
+}
+.library a{
+    text-decoration: none;
+}
