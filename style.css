@@ -199,6 +199,9 @@
     .main-part img{
         height: 50vh;
     }
+    .course-part img{
+        width: 100%;
+    }
     .course-part p{
         font-size: 12px;
     }
